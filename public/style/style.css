@@ -1,0 +1,209 @@
+@import url('https://fonts.googleapis.com/css2?family=Poiret+One&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poiret One', cursive;
+    font-weight: bold;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    
+}
+html{
+    scroll-behavior: smooth;
+}
+
+.navbar-style{
+    background-color:whitesmoke;
+    box-shadow: 2px 4px 13px 1px rgba(0,0,0,0.1);
+
+}
+.hero-text h1{
+    font-size: 2.5rem;
+    line-height: 2.5rem;
+    text-shadow: 5px 4px 11px rgba(0,0,0,0.26);
+    letter-spacing: 1px;
+    color: #2f2f2f;
+    text-transform: capitalize;
+    margin-top: 2px;
+}
+.hero-text h1:nth-child(2){
+    color: #5222d0;
+    font-weight: bold;
+    margin-top: 5px;
+}
+.hero-text p{
+    font-size: 1rem;
+    letter-spacing: 0.2rem;
+    color: #777676;
+    text-transform: capitalize;
+    margin-top: 1.5rem;
+    margin-bottom: 2rem;
+}
+.sp{
+ color: black;
+}
+.btn-style{
+padding: 10px 20px;
+border: none;
+color: #fff;
+font-size: 10px;
+text-transform: uppercase;
+letter-spacing: 1px;
+border: 2px solid #fff;
+background-color: #ec615b;
+--webkit-transition: 0.5s all;
+--moz-transition: 0.5s all;
+--o-transition: 0.5s all;
+
+--ms-transition: 0.5s all;
+transition: 0.5s all;
+
+
+
+}
+li,p,a{
+    font-size: 1.2rem;
+}
+.row{
+    margin: 0;
+}
+.navbar-light .navbar-nav .nav-link{
+    color: #621919;
+    text-transform: capitalize;
+    letter-spacing: 0.1rem;
+    padding-left: 1rem;
+
+}
+.navbar-light .navbar-nav .nav-link:hover{
+    color: #fd5c63;
+}
+#logo{
+display: initial;
+font-weight: 600;
+font-size: 2rem;
+letter-spacing: 1px;
+text-transform: capitalize;
+color: #fd5c63;
+text-shadow: 2px 5px 3px rgba(0,0,0,0.06);
+padding: 0;
+}
+.about-style .main-heading,.contact-style .main-heading,.service-style .main-heading{
+    font-size: 3rem;
+    color: #fd5c63;
+    letter-spacing: 1px;
+    font-weight: bold;
+}
+
+.about-style .sub-heading ,.service-style .sub-heading{
+ font-size: 1.5rem;
+ letter-spacing: 3px;
+ line-height: 2;
+ clip-path: #333;
+ font-weight: 500;   
+}
+footer{
+height: 5rem;
+width: 100%;
+background-color: whitesmoke;
+margin-top: auto;
+line-height: 5rem;
+}
+footer p{
+    text-align: center;
+    
+}
+/* servicess style */
+
+.service-style {
+    margin-bottom: 5rem;
+  }
+  
+  .box {
+    position: relative;
+    width: 100%;
+    padding-right: 15px;
+     padding-left: 15px;
+  }
+ 
+  .our-services {
+      margin-top: 60px; 
+    padding-bottom: 10px; 
+    padding: 0 30px; 
+    min-height: 198px; 
+ 
+    text-align: center;
+    border-radius: 10px;
+    background-color: whitesmoke;
+    transition: all 0.4s ease-in-out;
+    box-shadow: 0 0 25px 0 rgba(20, 27, 202, 0.17);
+  } 
+  
+  .our-services .icon {
+    margin-bottom: -17px;
+    transform: translateY(-50%);
+    text-align: center;
+  }
+  
+  .our-services h4 {
+    font-size: 1.4rem;
+    font-weight: bold;
+  }
+  .our-services p{
+font-size: 1rem;
+
+  }
+  .our-services:hover h4,
+  .our-services:hover p {
+    color: #fff;
+   
+  }
+  .settings:hover {
+    box-shadow: 0 0 25px 0 rgba(20, 27, 201, 0.2);
+    cursor: pointer;
+    background-image: linear-gradient(-45deg, #49d0da 0%, #210c59 50%);
+  }
+   
+
+  /* contact us starts here  */
+
+  ::placeholder {
+    font-weight: 600;
+    color: black;
+  }
+  
+ 
+/* media queries part starts here  */
+
+@media (max-width: 768px) {
+    #logo {
+      font-size: 2.5rem;
+    }
+  
+    .hero-text h1 {
+      font-size: 2rem;
+    }
+  
+    figure {
+      margin: 5rem 0;
+    }
+  
+    figure img {
+      min-width: 100%;
+    }
+  
+    .hero-text p,
+    .our-services p,
+    label {
+      font-size: 1.5rem;
+    }
+  
+    .about-style .sub-heading,
+    .service-style .sub-heading,
+    .contact-style .sub-heading {
+      font-size: 1.3rem;
+    }
+  }

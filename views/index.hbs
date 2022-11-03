@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>indexPage</title>
+  {{>link}}
+    <link rel="stylesheet" href="style/style.css">
+</head>
+<body>
+{{>nav}}
+
+{{!-- hero section start --}}
+<div class="container-fluid  py-3 mt-5">
+  <div class="row">
+    <div class="col-md-10 col-12 mx-auto">
+<div class="row">
+<div class="col-md-6 col-12 hero-text order-md-0 order-1 d-flex justify-content-center align-items-start flex-column">
+<h1>We WILL HELP YOU TO</h1>
+<h1>GROW YOUR BUSINESS</h1>
+<p>We Are The Team Of <span class="sp">Professional Developer.</span>🤗</p>
+<button class="btn-style btn-primary">Read More</button>
+</div>
+{{!-- right side --}}
+<div class="col-md-6 col-12 hero-text order-md-1 order-0">
+<figure>
+  <img src="images/growth.png" alt="" class="img-fluid">
+</figure>
+</div>
+
+</div>
+
+    </div>
+  </div>
+</div>
+{{!-- hero section end --}}
+
+{{!--  section about --}}
+{{>about}}
+{{!-- about section end --}}
+
+{{!-- services us page --}}
+{{>services}}
+
+{{!-- services page end --}}
+
+{{!-- maps  page --}}
+{{>maps}}
+{{!-- maps us page end --}}
+
+{{!-- contatcus page --}}
+{{>contact}}
+{{!-- end contatcus page --}}
+
+{{>footer}}
+</body>
+</html>
